@@ -1,3 +1,5 @@
+package STEMathon;
+
 import java.util.Scanner;
 
 public class Probability {
@@ -10,20 +12,20 @@ public class Probability {
         // Declaring my variables
         Scanner sc = new Scanner(System.in);
         int kids;
-        
+
         System.out.println("According to the National Autism Association in June of 2016,");
-        System.out.println("The risk of death by drowning is twice as high for children with ASD than in the General population");
-        System.out.println("In 2011, accidental drowning accounted for 91% of injury-related deaths in the U.S among kids with ASD");
+        System.out.println(
+                "The risk of death by drowning is twice as high for children with ASD than in the General population");
+        System.out.println(
+                "In 2011, accidental drowning accounted for 91% of injury-related deaths in the U.S among kids with ASD");
         System.out.println("ages 14 years and younger.");
         System.out.println("Please enter the number of children with ASD: ");
         kids = sc.nextInt();
 
         double drowned = kids * PERC;
-        
 
         System.out.print("Out of " + kids);
-        System.out.print(" kids with disabilities, " + drowned);
-        System.out.print(" drowned.");
+        System.out.print(" kids with ASD who died in their childhood, " + drowned);
+        System.out.print(" died due to drowning.");
     }
 }
-
