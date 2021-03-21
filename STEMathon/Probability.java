@@ -19,13 +19,13 @@ public class Probability {
         System.out.println(
                 "In 2011, accidental drowning accounted for 91% of injury-related deaths in the U.S among kids with ASD");
         System.out.println("ages 14 years and younger.");
-        System.out.println("Please enter the number of children with ASD: ");
+        System.out.println("Please enter the number of children living with ASD: ");
         kids = sc.nextInt();
 
         double drowned = kids * PERC;
 
         System.out.print("Out of " + kids);
-        System.out.print(" kids with ASD who died in their childhood, " + drowned);
+        System.out.print(" kids who live with ASD who died in their childhood, " + drowned);
         System.out.print(" died due to drowning.");
     }
 }
