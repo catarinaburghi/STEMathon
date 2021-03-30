@@ -23,6 +23,7 @@ public class Probability {
         kids = sc.nextInt();
 
         double drowned = kids * PERC;
+        drowned = Math.round(drowned);
 
         System.out.print("Out of " + kids);
         System.out.print(" kids who live with ASD who died in their childhood, " + drowned);
